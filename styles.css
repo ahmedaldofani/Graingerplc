@@ -117,7 +117,7 @@ html {
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: url(memento-media-SuDN17Hzudc-unsplash.jpg);
+    background-image: url('memento-media-SuDN17Hzudc-unsplash.jpg');
     background-size: cover;
     background-position: 50% 30%;
     opacity: 0.4;
