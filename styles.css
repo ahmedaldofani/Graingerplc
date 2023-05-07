@@ -1,0 +1,152 @@
+html {
+    font-size: 16px;
+   
+  }
+  body{
+    background-color: #FFFAF0;
+    font-family: 'Open Sans', sans-serif;
+    padding: auto;
+    margin: auto;
+    text-align: center;
+    width: auto;
+    overflow-x: hidden
+  }
+  /*header*/
+  header{
+    background-color: #D3D3D3;
+    width:100%;
+    height: 18rem;
+    padding-top:0.1rem;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; 
+    
+  }
+  header h1 {
+    font-size: 5rem;
+    color: #191970;
+    text-align: center;
+  }
+  nav ul{
+    display: flex; 
+    flex-direction: row; 
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    margin:0;
+    padding:0;
+    width: 100%;
+    
+  }
+  nav ul li{
+   margin:0 4rem;
+  }
+  nav a {
+    text-decoration: none; 
+    color: #333; 
+    font-weight: bold;
+    font-size: 1.25rem;
+  }
+  
+  /*mission*/
+  .mission{
+   text-align: center;
+   font-size: 2rem;
+ 
+  }
+  .mission h2{
+    margin-bottom:0;
+  }
+  .mission p{
+    font-style: italic;
+    color: #008B8B;
+  }
+  
+  
+  /*portfolio*/
+  .portfolio{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+    background-color: #D3D3D3;
+    padding-bottom: 3rem;
+  }
+  .portfolio h2 {
+    text-align: center;
+    font-size: 2.5rem;
+  }
+  .portfolio h4{
+    font-size: 1.2rem;
+    text-align: center;
+  }
+  .properties {
+    display:flex; 
+    flex-direction:row; 
+    justify-content:center;
+    justify-items: center;
+    align-items: center;
+    flex-wrap:wrap;
+    width: 80%;
+  
+  }
+  .properties img{
+    width: 42rem;
+    height: 25rem;
+    max-width: 95%;
+    overflow: hidden;
+  }
+  .properties p{
+    text-align: center;
+    font-size: 2rem;;
+  }
+
+  /*CEO*/
+  .CEO{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+  }
+  .CEO::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(images/memento-media-SuDN17Hzudc-unsplash.jpg);
+    background-size: cover;
+    background-position: 50% 30%;
+    opacity: 0.4;
+    z-index: -1;
+
+  }
+  .CEO img{
+    width: auto;
+    height: 20rem;
+    margin-top: 10rem;
+    
+    
+  }
+  .CEO p{
+    font-size: 1.25rem;
+  }
+  .CEO h3{
+    font-size: 2rem;
+    margin-top: -1rem;
+  }
+
+  /*footer*/
+  footer {
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    flex-direction: row;
+    background-color: #D3D3D3;
+  } 
+  footer a{
+    text-decoration: none; 
+  }
