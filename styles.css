@@ -127,9 +127,10 @@ html {
 
   }
   .CEO img{
-    width: auto;
+    width: 22rem;
     height: 20rem;
     margin-top: 10rem;
+    border-radius: 50%;
     
     
   }
